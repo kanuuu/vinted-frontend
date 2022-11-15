@@ -101,7 +101,7 @@ const App = () => {
           element={<Payment token={token} user={user} />}
         />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 };
