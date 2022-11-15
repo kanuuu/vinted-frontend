@@ -17,10 +17,13 @@ const Login = ({ hasAccount, setHasAccount, handleToken, handleUser }) => {
         onSubmit={async (e) => {
           e.preventDefault();
           try {
-            const res = await axios.post("http://localhost:4321/user/login", {
-              email: loginEmail,
-              password: loginPassword,
-            });
+            const res = await axios.post(
+              "https://site--server--l7d2svd7qlv9.code.run/user/login",
+              {
+                email: loginEmail,
+                password: loginPassword,
+              }
+            );
             handleToken(res.data.token);
             handleUser(res.data);
             navigate("/");

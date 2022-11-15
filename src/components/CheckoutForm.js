@@ -30,7 +30,7 @@ const CheckoutForm = ({ title, price, id, token, user, owner }) => {
       const stripeToken = stripeResponse.token.id;
 
       const response = await axios.post(
-        "http://localhost:4321/payment",
+        "https://site--server--l7d2svd7qlv9.code.run/payment",
         {
           stripeToken,
           title,

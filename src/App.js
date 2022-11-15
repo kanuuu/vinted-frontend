@@ -1,14 +1,19 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
+
+//pages
 import Home from "./pages/Home";
 import Offer from "./pages/Offer";
 import Publish from "./pages/Publish";
-import Header from "./components/Header";
 import Connect from "./pages/Connect";
 import Payment from "./pages/Payment";
+
+//components
+import Header from "./components/Header";
 import User from "./pages/User";
 import Footer from "./components/Footer";
+
 import Cookies from "js-cookie";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {

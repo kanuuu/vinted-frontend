@@ -11,7 +11,9 @@ const Offer = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get(`http://localhost:4321/offer/${id}`);
+      const response = await axios.get(
+        `https://site--server--l7d2svd7qlv9.code.run/offer/${id}`
+      );
       setData(response.data);
       setIsLoading(false);
     };

@@ -33,7 +33,7 @@ const Signup = ({ hasAccount, setHasAccount, handleToken, handleUser }) => {
           try {
             setIsLoading(true);
             const res = await axios.post(
-              "http://localhost:4321/user/signup",
+              "https://site--server--l7d2svd7qlv9.code.run/user/signup",
               formData
             );
             handleToken(res.data.token);

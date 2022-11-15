@@ -39,12 +39,16 @@ const Publish = ({ token }) => {
     formData.append("price", productPrice);
 
     try {
-      await axios.post("http://localhost:4321/offer/publish", formData, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-          "Content-Type": "multipart/form-data",
-        },
-      });
+      await axios.post(
+        "https://site--server--l7d2svd7qlv9.code.run/offer/publish",
+        formData,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
       setIsLoading(false);
       navigate("/");
     } catch (error) {

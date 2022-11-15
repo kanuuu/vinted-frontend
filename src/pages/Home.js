@@ -21,7 +21,7 @@ const Home = ({ search, sort, finalPrice, page, setPage }) => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        `http://localhost:4321/offers?priceMin=${finalPrice[0]}&priceMax=${finalPrice[1]}&page=${page}&${search}&${sort}`
+        `https://site--server--l7d2svd7qlv9.code.run/offers?priceMin=${finalPrice[0]}&priceMax=${finalPrice[1]}&page=${page}&${search}&${sort}`
       );
       setData(response.data);
       setIsLoading(false);
