@@ -1,7 +1,3 @@
-html {
-  position: relative;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   height: 100vh;
@@ -231,7 +227,7 @@ a {
   transform: translateX(22px);
 }
 .offers {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .offers > h1 {
@@ -730,6 +726,7 @@ a {
   border: none;
   padding: 5px;
   border-radius: 4px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 .offer-pages p {
@@ -848,7 +845,7 @@ a {
   align-items: center;
   color: grey;
   font-size: 12px;
-  position: absolute;
+  margin-top: 10px;
   bottom: 0;
   right: 5%;
 }
