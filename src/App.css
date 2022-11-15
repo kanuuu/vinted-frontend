@@ -565,7 +565,7 @@ a {
 
 .publish-bg {
   background: lavender;
-  height: 100vh;
+  height: max-content;
   padding-top: 0.05px;
   padding-bottom: 0.05px;
 }
