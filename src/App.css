@@ -726,10 +726,12 @@ a {
   border: none;
   padding: 5px;
   border-radius: 4px;
+  margin-bottom: 30px;
   cursor: pointer;
 }
 .offer-pages p {
   font-size: 13px;
+  margin-bottom: 30px;
 }
 
 .payment-page {
@@ -844,5 +846,4 @@ a {
   align-items: center;
   color: grey;
   font-size: 12px;
-  padding-top: 60px;
 }

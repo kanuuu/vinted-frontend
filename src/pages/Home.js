@@ -3,6 +3,7 @@ import axios from "axios";
 import Hero from "../components/Hero";
 import OfferList from "../components/OfferList";
 import { HashLoader } from "react-spinners";
+import Footer from "../components/Footer";
 
 const Home = ({ search, sort, finalPrice, page, setPage }) => {
   const [data, setData] = useState();
@@ -70,6 +71,7 @@ const Home = ({ search, sort, finalPrice, page, setPage }) => {
           </button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
