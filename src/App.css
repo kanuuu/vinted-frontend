@@ -16,7 +16,7 @@ a {
 }
 .loading {
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   justify-content: center;
   align-items: center;
@@ -292,7 +292,7 @@ a {
 .offer-page {
   background: lavender;
   width: 100%;
-  height: max-content;
+  height: 100%;
   padding: 0.05px;
   padding-bottom: 50px;
 }
@@ -568,7 +568,7 @@ a {
 
 .publish-bg {
   background: lavender;
-  height: max-content;
+  height: 100%;
   padding-top: 0.05px;
   padding-bottom: 0.05px;
 }
@@ -619,9 +619,6 @@ a {
 .del-img {
   height: 100%;
   width: 100%;
-}
-.del-img:after {
-  content: "";
 }
 .del-img:hover > img {
   filter: blur(5px);
@@ -739,7 +736,7 @@ a {
 }
 
 .payment-page {
-  height: max-content;
+  height: 100%;
   width: 100%;
   background: lavender;
   padding-top: 0.05px;
