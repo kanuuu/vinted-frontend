@@ -726,7 +726,6 @@ a {
   border: none;
   padding: 5px;
   border-radius: 4px;
-  margin-bottom: 20px;
   cursor: pointer;
 }
 .offer-pages p {
@@ -845,7 +844,5 @@ a {
   align-items: center;
   color: grey;
   font-size: 12px;
-  margin-top: 10px;
-  bottom: 0;
-  right: 5%;
+  padding-top: 60px;
 }
