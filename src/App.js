@@ -12,7 +12,6 @@ import Payment from "./pages/Payment";
 //components
 import Header from "./components/Header";
 import User from "./pages/User";
-import Footer from "./components/Footer";
 
 import Cookies from "js-cookie";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -101,7 +100,6 @@ const App = () => {
           element={<Payment token={token} user={user} />}
         />
       </Routes>
-      {/* <Footer /> */}
     </Router>
   );
 };
