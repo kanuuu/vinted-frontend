@@ -63,7 +63,7 @@ const Header = ({
                 <div className="user-infos">
                   <img
                     src={
-                      user?.account.avatar.secure_url || user?.account.avatar
+                      user?.account.avatar?.secure_url || user?.account?.avatar
                     }
                     className="profile-picture"
                     alt=""

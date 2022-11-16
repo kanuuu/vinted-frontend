@@ -13,7 +13,7 @@ const User = ({ user, token }) => {
         </div>
         <div className="right-user">
           <img
-            src={user?.account.avatar.secure_url || user?.account.avatar}
+            src={user?.account.avatar?.secure_url || user?.account?.avatar}
             className="user-pp"
             alt=""
           />
